@@ -1,4 +1,4 @@
-const content = "
+
 # P+WITW (Where In The World?)
 
 ###### This is intended as an asset management dashboard, with a location-centric focus. 
@@ -44,4 +44,3 @@ _When a computer signs onto any network and obtains an IP address, the public IP
     - Information is pulled once per minute, so as not to go over rate limits.
 - We do not store usernames for GDPR Compliance.
 - Written in Powershell; for the windows environment. 
-"

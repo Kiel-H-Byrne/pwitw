@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 import { ResponsiveContainer, Cell, PieChart, Pie, Legend, LabelList, Tooltip } from 'recharts';
-import { differenceInMinutes, differenceInHours, differenceInDays, isToday, isYesterday, isThisWeek, isThisMonth, isThisQuarter,} from "date-fns";
+import { differenceInMinutes, differenceInHours, differenceInDays} from "date-fns";
 import chroma from 'chroma-js';
 
 // import { Flipper, Flipped } from "react-flip-toolkit";

@@ -14,7 +14,7 @@ _When a computer signs onto any network and obtains an IP address, the public IP
 - The script is written in Powershell, this does the heavy lifting.
 - A Scheduled task will run the script when a network change is detected on the host.
 - The script is being deployed on host machines using the existing PW_Logon scripts--specifically the per-office scripts that map network drives. 
-- An accompanying bash script ('installTask.bat) copies the necessary files to local folder ['C:\\Temp\\PWITW']('file://C:\Temp\PWITW') and installs a scheduled task (an accompanying 'SubmitPCInfo.xml' file).
+- An accompanying bash script ('installTask.bat) copies the necessary files to local folder ['C:\\Temp\\PWITW']('file://C:\\Temp\\PWITW') and installs a scheduled task (an accompanying 'SubmitPCInfo.xml' file).
 - When a network change is detected, the local copy of the PS script is run. A copy of the information (formatted in JSON) is saved in the same folder before sending to the database. [PCInfo.json](file:///C:\\temp\\pwitw\\pcinfo.json). 
 
 ### How The Application Works:

@@ -254,5 +254,5 @@ export default compose(
     null,
     mapDispatchToProps,
   ),
-  withStyles(styles, { withTheme: true })
+  // withStyles(styles, { withTheme: true })
   )(StatsTable);

@@ -122,17 +122,13 @@
 }
 
 .pieWedge, .pieSector {
-  // transition: all .4s ease-in;
+  transition: all .4s ease-in;
   animation: fadeIn 3s ease-in;
 } 
 .pieSector-0 {
-  // animation: wobble 1s linear;
+  animation: wobble 1s linear;
 }
 .rowItem {
-  // transition: all .3s ease-in;
-  // animation: shake 0.4s ease-in
-}
-
-.Readme_markdown {
-  
+  transition: all .3s ease-in;
+  animation: shake 0.4s ease-in
 }

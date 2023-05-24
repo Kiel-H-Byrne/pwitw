@@ -13,7 +13,8 @@ import blue from '@material-ui/core/colors/blue';
 import routes from "./routes";
 import { history } from "./store";
 import AppHeader from './components/Header/AppHeader.js';
-import './App.scss';
+// import './App.scss';
+import './App.css';
 
 
 let theme = createMuiTheme({

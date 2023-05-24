@@ -20,8 +20,7 @@
 -->
 
 # P+WITW (Where In The World?)
-
-###### This is intended as an asset management dashboard, with a location-centric focus. 
+This is intended as an asset management dashboard, with a location-centric focus. 
 _When a computer signs onto any network and obtains an IP address, the public IP address is obtained, a geolocation calculated, and stored along with other machine information in a database._
 
 <img width="80%" src="https://github.com/Kiel-H-Byrne/pwitw/assets/955269/08744bb9-74cb-40ab-8ff8-e1e51fdd60d8" />

@@ -34,8 +34,8 @@ _When a computer signs onto any network and obtains an IP address, the public IP
 - The script is written in Powershell, this does the heavy lifting.
 - A Scheduled task will run the script when a network change is detected on the host.
 - The script is being deployed on host machines using the existing PW_Logon scripts--specifically the per-office scripts that map network drives. 
-- An accompanying bash script ('installTask.bat) copies the necessary files to local folder ['C:\Temp\PWITW'](C:\Temp\PWITW) and installs a scheduled task (an accompanying 'SubmitPCInfo.xml' file).
-- When a network change is detected, the local copy of the PS script is run. A copy of the information (formatted in JSON) is saved in the same folder before sending to the database. [PCInfo.json](C:\temp\pwitw\pcinfo.json). 
+- An accompanying bash script ('installTask.bat) copies the necessary files to local folder ['C:\Temp\PWITW'](#?C:\Temp\PWITW) and installs a scheduled task (an accompanying 'SubmitPCInfo.xml' file).
+- When a network change is detected, the local copy of the PS script is run. A copy of the information (formatted in JSON) is saved in the same folder before sending to the database. [PCInfo.json](#?C:\temp\pwitw\pcinfo.json). 
 
 ### How The Application Works:
 - The application repository is stored on [github.com](https://github.com/tdotholla/pwitw).
@@ -43,8 +43,8 @@ _When a computer signs onto any network and obtains an IP address, the public IP
 - The codebase is written primarily in Javascript/JSX (React) and Node.js with multiple useful NPM packages.
     - A node.js server can build and serve website using Yarn/NPM to install necessary packages. T
     - `yarn | yarn start `
-- A DC Server is currently hosting the application: ['WDCWK1700:3000'](http://WDCWK1700:3000)
-- The database is hosted on [restdb.io](restdb.io)
+- A DC Server is currently hosting the application: ['WDCWK1700:3000'](#?WDCWK1700:3000)
+- The database is hosted on [restdb.io](https://restdb.io)
 - The IP Geolocation API uses ipstack.io (it was ipinfo.io but ran into rate limits)
 - The Maps API is Google Maps (would like to use Mapbox in future)
 

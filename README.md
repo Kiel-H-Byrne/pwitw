@@ -1,6 +1,8 @@
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and license info here --->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/dc71061d-ad45-42b0-9e3f-5dc1d4eea09f/deploy-status)](https://app.netlify.com/sites/pwitw/deploys)
-![Github License](https://img.shields.io/github/license/kiel-h-byrne/pwitw)
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>
 ![Node Version](https://img.shields.io/node/v/canary)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/kiel-h-byrne/pwitw)

@@ -1,8 +1,32 @@
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and license info here --->
+![Github License](https://img.shields.io/github/license/kiel-h-byrne/pwitw)
+![Node Version](https://img.shields.io/node/v/canary)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/kiel-h-byrne/pwitw)
+![Github code size](https://img.shields.io/github/languages/code-size/kiel-h-byrne/pwitw)
+![Github Languages](https://img.shields.io/github/languages/count/kiel-h-byrne/pwitw)
+![Github Top Language](https://img.shields.io/github/languages/top/kiel-h-byrne/pwitw)
+
+![GitHub Issues](https://img.shields.io/github/issues-raw/kiel-h-byrne/pwitw)
+![GitHub contributors](https://img.shields.io/github/contributors/kiel-h-byrne/pwitw)
+![Github Last Commit](https://img.shields.io/github/last-commit/kiel-h-byrne/pwitw)
+<!--
+
+![Github Commit Activity](https://img.shields.io/github/commit-activity/m/kiel-h-byrne/pwitw)
+![GitHub stars](https://img.shields.io/github/stars/kiel-h-byrne/pwitw?style=social)
+![GitHub forks](https://img.shields.io/github/forks/kiel-h-byrne/pwitw?style=social)
+![Github Manifest Version](https://img.shields.io/github/manifest-json/v/kiel-h-byrne/pwitw)
+
+-->
 
 # P+WITW (Where In The World?)
 
 ###### This is intended as an asset management dashboard, with a location-centric focus. 
 _When a computer signs onto any network and obtains an IP address, the public IP address is obtained, a geolocation calculated, and stored along with other machine information in a database._
+
+<img width="80%" src="https://github.com/Kiel-H-Byrne/pwitw/assets/955269/08744bb9-74cb-40ab-8ff8-e1e51fdd60d8" />
+
+---
 
 ### How The Script Works:
 - The script is written in Powershell, this does the heavy lifting.

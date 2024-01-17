@@ -1,6 +1,7 @@
 {
   "name": "pwitw",
   "version": "0.1.0",
+  "license": "wtfpl",
   "private": true,
   "license": "wtfpl",
   "dependencies": {

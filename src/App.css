@@ -93,18 +93,19 @@
     flex: 1 100%;
 }
 .App-logo {
-    animation: App-logo-spin infinite 10s ease-in-out;
+    /* animation: App-logo-spin infinite 3s ease-in-out; */
     height: 48px;
     margin: 0 1em;
     pointer-events: none;
 }
 .App-header {
     background-color: #282c34;
-    height: 5vh;
+    height: 48px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    align-items: center;
     font-size: calc(110%);
     color: white;
     z-index: 1;

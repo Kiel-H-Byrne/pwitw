@@ -1,8 +1,8 @@
+import chroma from 'chroma-js';
+import { differenceInDays, differenceInHours, differenceInMinutes } from "date-fns";
 import React from 'react';
 import { connect } from "react-redux";
-import { ResponsiveContainer, Cell, PieChart, Pie, Legend, LabelList, Tooltip } from 'recharts';
-import { differenceInMinutes, differenceInHours, differenceInDays} from "date-fns";
-import chroma from 'chroma-js';
+import { Cell, LabelList, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
 // import { Flipper, Flipped } from "react-flip-toolkit";
 import Typography from '@material-ui/core/Typography';
@@ -53,7 +53,7 @@ const NetworkGraph = props => {
     { name: 'This Month', value: (under30Days.length - under7Days.length) },
     { name: 'Older...', value: over30Days.length },
   ];
-  console.log(under7Days.length, (under7Days.length - within48Hours.length - within24Hours.length - withinHour.length) , (under30Days.length - under7Days.length - within48Hours.length - within24Hours.length - withinHour.length))
+  // console.log(under7Days.length, (under7Days.length - within48Hours.length - within24Hours.length - withinHour.length) , (under30Days.length - under7Days.length - within48Hours.length - within24Hours.length - withinHour.length))
   const locationColors = chroma.scale(['#f7cd00','#5577d1']).colors(2)
   let pingColors = chroma.scale(['#ff8675','#639b76']).colors(pingData.length)
 
